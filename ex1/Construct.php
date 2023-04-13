@@ -7,4 +7,7 @@ class Construct{
         $this->name=$name;
         $this->age=$age;
     }
+    public function go(){
+        echo 'Name '.$this->name.' ';
+    }
 }

@@ -7,6 +7,6 @@ class Person extends Construct{
         $this->surname=$surname;
     }
     public function go(){
-        
+        echo parent::go(). "surname ".$this->surname;
     }
 }
